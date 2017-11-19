@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="public/ico/favicon.ico">
     <title>PORTAFOLIO. - LUIS HURTADO</title>
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="public/css/bootstrap/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="public/css/style.css" rel="stylesheet">
+    <link href="public/css/font-awesome.min.css" rel="stylesheet">
 
 <style>
 
@@ -31,7 +31,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">LUIS HURTADO</a>
+          <a class="navbar-brand " href="index.html">LUIS HURTADO</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -49,7 +49,7 @@
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3">
 					<h4>HOLA , MI NOMBRE ES:</h4>
-					<h1>LUIS HURTADO</h1>
+					<h1 id="textoBlanco">LUIS HURTADO</h1>
 					<h4>DISEÑADOR Y DESARROLLADOR WEB </h4>
 				</div>
 			</div>
@@ -61,25 +61,25 @@
 		<div class="row centered mt mb">
 			<h1>Mis Trabajos</h1>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="assets/img/portfolio/ss1.png" class="img-responsive"></a>
+				<a href="work.html"><img src="public/img/portfolio/ss1.png" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="assets/img/portfolio/parley.png" class="img-responsive"></a>
+				<a href="work.html"><img src="public/img/portfolio/parley.png" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="assets/img/portfolio/hcm.png" class="img-responsive"></a>
+				<a href="work.html"><img src="public/img/portfolio/hcm.png" class="img-responsive"></a>
 			</div>
       <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="assets/img/portfolio/alfayomega.png" class="img-responsive"></a>
+				<a href="work.html"><img src="public/img/portfolio/alfayomega.png" class="img-responsive"></a>
 			</div>
 			<!-- <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="assets/img/portfolio/folio04.png" class="img-responsive"></a>
+				<a href="work.html"><img src="public/img/portfolio/folio04.png" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="assets/img/portfolio/folio05.png" class="img-responsive"></a>
+				<a href="work.html"><img src="public/img/portfolio/folio05.png" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="assets/img/portfolio/folio06.png" class="img-responsive"></a>
+				<a href="work.html"><img src="public/img/portfolio/folio06.png" class="img-responsive"></a>
 			</div> -->
 		</div>
 	</div>
@@ -89,27 +89,53 @@
 <div class="container">
 	<div class="row centered mt mb">
 		<h1 id="servicios_nombre_h1">Mis Servicios</h1>
-		<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-			<a href="work.html"><img src="assets/img/portfolio/ss1.png" class="img-responsive"></a>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-			<a href="work.html"><img src="assets/img/portfolio/parley.png" class="img-responsive"></a>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-			<a href="work.html"><img src="assets/img/portfolio/hcm.png" class="img-responsive"></a>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-			<a href="work.html"><img src="assets/img/portfolio/alfayomega.png" class="img-responsive"></a>
-		</div>
-		<!-- <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-			<a href="work.html"><img src="assets/img/portfolio/folio04.png" class="img-responsive"></a>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-			<a href="work.html"><img src="assets/img/portfolio/folio05.png" class="img-responsive"></a>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-			<a href="work.html"><img src="assets/img/portfolio/folio06.png" class="img-responsive"></a>
-		</div> -->
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mx-auto">
+        <div class="service-item">
+          <span class="fa-stack fa-4x">
+            <i id="textoBlanco" class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+          </span>
+          <h4 id="textoBlanco"><strong>Service Name</strong></h4>
+          <p id="textoBlanco">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <a id="textoBlanco" href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service-item">
+          <span class="fa-stack fa-4x">
+            <i id="textoBlanco" class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-compass fa-stack-1x text-primary"></i>
+          </span>
+          <h4 id="textoBlanco"><strong>Service Name</strong></h4>
+          <p id="textoBlanco">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <a id="textoBlanco" href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service-item">
+          <span class="fa-stack fa-4x">
+            <i id="textoBlanco" class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-flask fa-stack-1x text-primary"></i>
+          </span>
+          <h4 id="textoBlanco" ><strong>Service Name</strong></h4>
+          <p id="textoBlanco" >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <a id="textoBlanco" href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service-item">
+          <span class="fa-stack fa-4x">
+            <i id="textoBlanco" class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-shield fa-stack-1x text-primary"></i>
+          </span>
+          <h4 id="textoBlanco"><strong>Service Name</strong> </h4>
+          <p id="textoBlanco">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <a id="textoBlanco" href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>  <!-- /.row (nested) -->
+    </div>
 	</div>
 </div>
 </section>
@@ -160,7 +186,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+    <script src="public/js/jquery/jquery.min.js"></script>
+    <script src="public/js/bootstrap/bootstrap.min.js"></script>
   </body>
 </html>
