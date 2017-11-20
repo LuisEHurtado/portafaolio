@@ -244,9 +244,32 @@ Wrap Sections
 
 /* Gallery */
 .gallery {
-    margin-top: 30px;
+  position: relative;
+  margin: 0 auto;
+  padding: 8px;
+  height: 220px;
+  border: 2px solid white;
+  background-color: #404040;
 }
 
 .gallery img:hover {
     opacity: 0.4;
+}
+.gallery img {
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  max-width: 90%; max-height: 90%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+div.container h1 {
+  text-align: center;
+}
+div.col-lg-3 {
+  width:33.333%;
+}
+div.container {
+  margin-bottom: 20px;
 }
