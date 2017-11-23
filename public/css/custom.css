@@ -1,0 +1,95 @@
+@charset "UTF-8";
+:root {
+  --altura-imagen: 70px;
+  --anchura-imagen: 80px;
+  --anchura-contenedor: 1024px;
+}
+
+div.herramientas {
+  position: relative;
+  margin: 20px 0;
+  min-height: var(--altura-imagen);
+  line-height: var(--altura-imagen);
+  width: var(--anchura-contenedor); max-width: 100%;
+}
+
+/* Cajas flexibles */
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+}
+
+.flex>div {
+  position: relative;
+  flex: auto;
+}
+
+.width-200 {
+  margin-bottom: 5px;
+  margin-right: 20px;
+  width: 200px;
+}
+
+.width-300 {
+  width: 300px;
+}
+
+.height-70px {
+  min-height: var(--altura-imagen);
+  line-height: var(--altura-imagen);
+}
+
+/* Propiedades comunes */
+
+div.images, div.images>img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+div.images {
+  font-size: 3.7rem;
+  left: 0;
+  right: auto;
+  width: var(--anchura-imagen);
+  line-height: 70px;
+  text-align: center;
+}
+
+div.images span::before {
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0; bottom: 0;
+  line-height: var(--altura-imagen);
+}
+
+/* Tamaños máximos establecidos en la imagen */
+
+div.images>img {
+  display: block;
+  left: 0;
+  right: 0;
+  max-height: 97%;
+  max-height: 97px;
+}
+
+div.bar {
+  position: absolute;
+  margin: auto;
+  left: var(--anchura-imagen);
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+div.bar > div {
+  overflow: visible;
+  text-align: left !important;
+}
