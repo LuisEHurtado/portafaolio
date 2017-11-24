@@ -2,7 +2,7 @@
 :root {
   --altura-imagen: 70px;
   --anchura-imagen: 80px;
-  --anchura-contenedor: 1024px;
+  /*--anchura-contenedor: 1154px;*/
 }
 
 div.herramientas {
@@ -27,13 +27,14 @@ div.herramientas {
 }
 
 .width-200 {
+  position: relative;
   margin-bottom: 5px;
   margin-right: 20px;
   width: 200px;
 }
 
 .width-300 {
-  width: 300px;
+  width: 400px;
 }
 
 .height-70px {
